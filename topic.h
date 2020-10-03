@@ -16,8 +16,6 @@
   +----------------------------------------------------------------------+
 */
 
-#include "zeval.h"
-
 typedef struct _kafka_topic_object {
     rd_kafka_topic_t    *rkt;
     zval               zrk;

@@ -28,7 +28,6 @@
 #include "Zend/zend_interfaces.h"
 #include "metadata_collection.h"
 #include "Zend/zend_exceptions.h"
-#include "zeval.h"
 
 typedef struct _object_intern {
     zval                             zmetadata;
@@ -297,7 +296,9 @@ void kafka_metadata_collection_init(zval *return_value, Z_RDKAFKA_OBJ *zmetadata
         return;
     }
 
+#if PHP_MAJOR_VERSION < 8
     ZVAL_ZVAL(&intern->zmetadata, zmetadata, 1, 0);
+#endif
     intern->items = items;
     intern->item_cnt = item_cnt;
     intern->item_size = item_size;

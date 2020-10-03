@@ -31,7 +31,6 @@
 #include "conf.h"
 #include "topic_partition.h"
 #include "message.h"
-#include "zeval.h"
 
 zend_class_entry * ce_kafka_conf;
 zend_class_entry * ce_kafka_topic_conf;

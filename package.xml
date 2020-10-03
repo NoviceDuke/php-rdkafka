@@ -76,7 +76,6 @@
    <file role="src" name="topic.h"/>
    <file role="src" name="topic_partition.c"/>
    <file role="src" name="topic_partition.h"/>
-   <file role="src" name="zeval.h"/>
    <dir name="tests">
     <file role="test" name="allow_null_payload_and_key.phpt"/>
     <file role="test" name="allow_null_payload.phpt"/>

@@ -29,7 +29,6 @@
 #include "metadata_partition.h"
 #include "metadata_collection.h"
 #include "Zend/zend_exceptions.h"
-#include "zeval.h"
 
 typedef struct _object_intern {
     zval                            zmetadata;

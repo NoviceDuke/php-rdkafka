@@ -26,7 +26,6 @@
 #include "librdkafka/rdkafka.h"
 #include "Zend/zend_exceptions.h"
 #include "ext/spl/spl_exceptions.h"
-#include "zeval.h"
 
 /* {{{ arginfo */
 ZEND_BEGIN_ARG_INFO_EX(arginfo_kafka_get_err_descs, 0, 0, 0)

@@ -29,7 +29,6 @@
 #include "metadata_broker.h"
 #include "metadata_partition.h"
 #include "Zend/zend_exceptions.h"
-#include "zeval.h"
 
 typedef struct _object_intern {
     const rd_kafka_metadata_t *metadata;
